@@ -1,0 +1,150 @@
+body { 
+  background-color: rgb(216, 243, 251);
+}
+
+h1 {
+   color: black;
+   font-style: oblique;
+   text-align: center;
+   font-size: x-large;
+   background-color: lightskyblue;
+   margin: 0 auto;
+   padding: 15px;
+   width: 300px
+}
+
+h2 {
+   color:black;
+   text-align: center;
+   font-size: 24px;
+   line-height: 0.5;
+}
+
+h3 {
+   color: black;
+   text-align: center;
+   font-size: 18px;
+   margin: 0 150px;
+   padding: 10px 10px;
+} 
+
+p {
+   font-size: medium;
+   font-family: monospace;
+   text-decoration: none;
+   text-align: center;
+   width: 800px;
+   margin: 5px auto;
+
+}
+
+.contactUs {
+   color:brown;
+   margin-top: 20px;
+
+}
+
+.accessories {
+    color: aquamarine;
+
+}
+
+img {
+    height: 500px;
+    width: 500px; 
+    display: block;
+    margin: 30px auto;
+}
+
+
+.checkmeout{
+   height: 250px;
+   width: 35px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: #ffd700;
+   font-size: 25px;
+   animation: color 2s infinite;
+}
+
+.pravaja-panel:hover .checkmeout{
+   animation:none;
+}
+.hovermeRightPart{
+   display: flex;
+   justify-content: center;
+   font-size: 25;
+   align-items:center;
+   width: 0px;
+   overflow: hidden;
+}
+
+ul {
+   transform: rotate(-45deg);
+   display: inline-block;
+   background: url(./sprite.png);
+   list-style: none;
+   display: flex;
+   width: 90px;
+   flex-wrap: wrap;
+}
+
+.pravaja-panel{
+   position: fixed;
+   top: 50%;
+   right:1px;
+   margin-top: -125px;
+   display:flex;
+   background-color: bisque;
+}
+
+.pravaja-panel:hover .hovermeRightPart{
+   width: auto;
+}
+
+
+.checkmeout p{
+   position: absolute;
+   transform: rotate(-90deg);
+   width: 250px;
+}
+
+.facebook-button {
+   background-image: url(../sprite.png);
+   background-position: 0px 0px;
+   width: 40px;
+   height: 40px;
+   display: block;
+ }
+
+ .uchenik-podliza {
+   background-image: url(../sprite.png);
+   background-position: -40px 0px;
+   width: 40px;
+   height: 40px;
+   display: block;
+ }
+
+
+ .insta-button {
+   background-image: url(../sprite.png);
+   background-position: 0px -40px;
+   width: 40px;
+   height: 40px;
+   display: block;
+ }
+
+ .twitter-button {
+   background-image: url(../sprite.png);
+   background-position: -40px -40px;
+   width: 40px;
+   height: 40px;
+   display: block;
+ }
+
+@keyframes color{
+   from{ background-color: #ffd700; color:#0057b8;}
+   to{ background-color: #0057b8; color:#ffd700;} 
+
+}
